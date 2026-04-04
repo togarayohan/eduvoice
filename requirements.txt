@@ -1,0 +1,25 @@
+# EduVoice Dependencies
+# Install with: pip install -r requirements.txt
+
+# LLM — Gemma 4 via Ollama (Ollama itself installed separately)
+requests>=2.31.0
+
+# Speech to Text — Whisper (offline)
+openai-whisper>=20231117
+sounddevice>=0.4.6
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Text to Speech — Kokoro (offline, natural voice)
+kokoro>=0.9.2
+# sounddevice already listed above
+
+# Fallback TTS
+pyttsx3>=2.90
+
+# RAG — local vector search
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
+
+# Utilities
+pathlib2>=2.3.7
