@@ -12,7 +12,7 @@ Millions of children across rural Africa have no reliable internet access, no ac
 
 ## The Solution
 
-EduVoice is a fully **offline**, **voice-first** AI tutor that runs on low-cost hardware (Raspberry Pi or any laptop). A child simply speaks their question and EduVoice responds with a clear, friendly spoken answer — grounded in real curriculum materials.
+EduVoice is a fully **offline**, **voice-first** AI tutor that runs on low-cost hardware (Raspberry Pi(in development) or any laptop). A child simply speaks their question and EduVoice responds with a clear, friendly spoken answer — grounded in real curriculum materials.
 
 No internet. No screen. No barriers.
 
