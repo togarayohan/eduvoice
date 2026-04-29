@@ -1,0 +1,522 @@
+[
+  {
+    "prompt": "What is addition?",
+    "response": "You know when you have some sweets and your friend gives you more? You count them all together to see how many you have now. That is addition! It is just putting numbers together to get a bigger number. So if you had 3 sweets and got 2 more, you add them to get 5."
+  },
+  {
+    "prompt": "What is subtraction?",
+    "response": "Imagine you have 8 mangoes and you eat 3 of them. How many are left? That is subtraction, taking away one number from another to see what remains. We use the minus sign to show it. Subtraction helps us every day, like figuring out how much change you should get back at the market."
+  },
+  {
+    "prompt": "What is multiplication?",
+    "response": "Okay so imagine you have 4 friends and you want to give each of them 3 biscuits. Instead of counting 3 plus 3 plus 3 plus 3, you can just say 4 times 3 equals 12. That is multiplication! It is basically a shortcut for adding the same number over and over again."
+  },
+  {
+    "prompt": "What is division?",
+    "response": "Say you and 3 friends find 12 oranges and you want to share them fairly. You divide 12 by 4 and each person gets 3 oranges. That is division, splitting a number into equal groups so everyone gets the same. It is one of the most useful things in everyday life, from sharing food to splitting costs."
+  },
+  {
+    "prompt": "What is a fraction?",
+    "response": "Have you ever cut a piece of bread and taken just one piece? If you cut it into 4 equal pieces and take 1, you have one quarter of the bread. That is a fraction! The number on top tells you how many pieces you took, and the number on the bottom tells you how many pieces the whole thing was cut into."
+  },
+  {
+    "prompt": "What is a percentage?",
+    "response": "A percentage is just a way of saying how much out of 100. So if you scored 80 percent on a test, it means you got 80 out of every 100 marks. Think of it like a score out of 100 for everything in life. Your phone battery, a sale at a shop, your test results, they all use percentages."
+  },
+  {
+    "prompt": "What is an even number?",
+    "response": "An even number is any number you can split perfectly into two equal groups with nothing left over. So 6 is even because you can give 3 to one person and 3 to another. Numbers like 2, 4, 6, 8, and 10 are all even. A quick trick is that even numbers always end in 0, 2, 4, 6, or 8."
+  },
+  {
+    "prompt": "What is an odd number?",
+    "response": "An odd number is any number that cannot be split into two perfectly equal groups. If you have 7 sweets and try to share them equally between 2 people, one person always gets an extra one. Numbers like 1, 3, 5, 7, and 9 are all odd. They always end in 1, 3, 5, 7, or 9."
+  },
+  {
+    "prompt": "What is place value?",
+    "response": "Here is something cool. In the number 345, the 3 does not just mean 3. It means 300 because of where it is sitting! The position of a digit in a number tells you its true value. That is place value. The further left a digit sits, the more it is worth."
+  },
+  {
+    "prompt": "What is a square number?",
+    "response": "A square number is what you get when you multiply a number by itself. So 3 times 3 gives you 9, and 9 is a square number. 4 times 4 gives you 16, another square number. They are called square numbers because if you arrange that many dots, you can always make a perfect square shape."
+  },
+  {
+    "prompt": "What is perimeter?",
+    "response": "The perimeter is the total distance all the way around the outside of a shape. Imagine you are walking around the edge of a football field without cutting any corners. The total distance you walked is the perimeter. To find it you just add up all the lengths of all the sides."
+  },
+  {
+    "prompt": "What is area?",
+    "response": "Area is the amount of flat space inside a shape. Think of it like how many square tiles you would need to cover the floor of a room without leaving any gaps. For a rectangle you find the area by multiplying the length by the width. Area is measured in square units like square metres or square centimetres."
+  },
+  {
+    "prompt": "What is a prime number?",
+    "response": "A prime number is a special number that can only be divided equally by 1 and by itself, nothing else. So 7 is a prime number because only 1 and 7 divide into it perfectly. But 6 is not prime because you can divide it by 1, 2, 3, and 6. The first few prime numbers are 2, 3, 5, 7, 11, and 13."
+  },
+  {
+    "prompt": "How do you read time on a clock?",
+    "response": "A clock has two hands. The short hand tells you the hour and the long hand tells you the minutes. When the long hand points to 12, it means exactly on the hour. When it points to 3, it means 15 minutes past. When it points to 6, it means 30 minutes past, which we also call half past. Practice looking at clocks every day and you will get it quickly!"
+  },
+  {
+    "prompt": "What is data handling?",
+    "response": "Data handling is about collecting information, organising it, and then reading it to understand what it means. For example you might ask everyone in your class what their favourite fruit is, count the answers, and then draw a bar graph to show the results. Data handling helps us see patterns and make sense of information around us."
+  },
+  {
+    "prompt": "What are shapes?",
+    "response": "Shapes are the forms and outlines that things take around us. A circle is perfectly round with no corners, like the sun or a wheel. A square has 4 equal sides and 4 corners. A triangle has 3 sides and 3 corners. A rectangle has 4 sides but the opposite sides are equal in length. Learning shapes helps us describe and understand the world around us."
+  },
+  {
+    "prompt": "What is a number line?",
+    "response": "A number line is a straight line with numbers placed in order from smallest to biggest. It is a really useful tool for understanding how numbers relate to each other. You can use it to count forwards or backwards, to add or subtract, or to compare which number is bigger. Zero sits in the middle of a full number line with positive numbers going right and negative numbers going left."
+  },
+  {
+    "prompt": "What does estimate mean in maths?",
+    "response": "To estimate means to make a smart guess that is close to the real answer, without working it out exactly. If a bag of oranges costs 4 dollars and 95 cents, you might estimate that it costs about 5 dollars. Estimating is useful when you need a quick answer and the exact number is not important. It is a skill that helps you check whether your exact answers make sense too."
+  },
+  {
+    "prompt": "What is a graph?",
+    "response": "A graph is a picture that helps us show information in a way that is easy to read and understand. Instead of writing out a long list of numbers, a graph lets you see the information at a glance. There are different types of graphs like bar graphs, pie charts, and line graphs. Each one is useful for showing different kinds of information."
+  },
+  {
+    "prompt": "What is money?",
+    "response": "Money is what we use to buy and sell things. In Zimbabwe we use the Zimbabwe Gold, also known as ZiG, as our currency. Money comes in coins and notes of different values. When you buy something, you give money equal to its price, and if you give more than the price, you get change back. Understanding money helps you shop wisely and save for things you want."
+  },
+  {
+    "prompt": "What is a remainder?",
+    "response": "A remainder is what is left over when a number cannot be divided equally. For example if you have 13 sweets and want to share them among 4 friends, each person gets 3 sweets but you have 1 sweet left over. That leftover sweet is the remainder. So 13 divided by 4 equals 3 remainder 1."
+  },
+  {
+    "prompt": "What does greater than and less than mean?",
+    "response": "Greater than means a number is bigger than another number, and we show it with this sign which looks like an open mouth facing the bigger number. Less than means a number is smaller than another. So 8 is greater than 5, and 3 is less than 7. A helpful trick is to remember that the open side of the sign always faces the bigger number, like it wants to eat the bigger one!"
+  },
+  {
+    "prompt": "What is a pattern in mathematics?",
+    "response": "A pattern is when something repeats in a regular and predictable way. In maths, patterns can be with numbers, shapes, or colours. For example 2, 4, 6, 8 is a pattern where we keep adding 2. Or shapes going circle, square, circle, square is a repeating pattern. Spotting patterns is one of the most important skills in maths because it helps us predict what comes next."
+  },
+  {
+    "prompt": "What is measurement?",
+    "response": "Measurement is how we find out the size, length, weight, or amount of something using standard units. We measure length in centimetres and metres, weight in grams and kilograms, and liquids in millilitres and litres. In Zimbabwe you might measure the length of your school uniform, weigh tomatoes at the market, or measure water in a bucket. Measurement makes it possible for everyone to agree on sizes and amounts."
+  },
+  {
+    "prompt": "What is a symmetrical shape?",
+    "response": "A shape is symmetrical when you can fold it in half and both sides match perfectly like a mirror image. A butterfly is a great example because its two wings look exactly the same. A square is symmetrical too because you can fold it in half in many ways and the two sides always match. Symmetry is everywhere in nature and in the things people make and design."
+  },
+  {
+    "prompt": "What is photosynthesis?",
+    "response": "Plants are actually amazing little factories! They take in sunlight, water from the ground, and carbon dioxide from the air, and they cook all of that into sugar which is their food. While doing this they release oxygen into the air, which is exactly what we need to breathe. So every time you breathe in, you can thank a plant for that."
+  },
+  {
+    "prompt": "What is the water cycle?",
+    "response": "Water never really disappears, it just goes on a long journey! The sun heats up water in rivers, lakes, and the ocean and turns it into invisible vapor that floats up into the sky. Up high where it is cold, that vapor turns into tiny drops that form clouds. When the clouds get too heavy, the water falls back down as rain or snow, and then it flows back into rivers and the whole journey starts again."
+  },
+  {
+    "prompt": "What is gravity?",
+    "response": "Gravity is the invisible force that keeps your feet on the ground. It is why when you jump you always come back down and why things fall when you drop them. The Earth is so big and heavy that it pulls everything toward its center, including you, the oceans, and even the air around us. Without gravity we would all just float off into space!"
+  },
+  {
+    "prompt": "What are the states of matter?",
+    "response": "Everything around you is made of matter and matter can exist in three different forms. When it is solid like a rock or a piece of wood, it keeps its shape no matter what. When it is liquid like water or juice, it flows and takes the shape of whatever you pour it into. When it is a gas like the air we breathe, it spreads out and fills all the space it can find."
+  },
+  {
+    "prompt": "What is the solar system?",
+    "response": "Imagine the sun sitting in the middle like a giant bonfire, and eight planets going around it in big circles called orbits. That is our solar system! Earth is the third planet from the sun, which is why we get just the right amount of warmth to have life. Some planets are scorching hot, some are freezing cold, and some are just giant balls of gas with no ground to stand on."
+  },
+  {
+    "prompt": "What is a food chain?",
+    "response": "Every living thing needs energy to survive, and a food chain shows us where that energy comes from. It usually starts with a plant that gets energy from the sun. Then a small animal like a grasshopper eats the plant. Then a bigger animal like a frog eats the grasshopper. Then a snake eats the frog! Each creature depends on the one before it, which is why protecting even the smallest plants and animals really matters."
+  },
+  {
+    "prompt": "What are mammals?",
+    "response": "Mammals are a special group of animals that all share a few things in common. They are warm-blooded which means their body keeps the same temperature whether it is hot or cold outside. Most of them give birth to live babies instead of laying eggs, and mothers feed their babies with milk. Humans, dogs, elephants, lions, and even bats are all mammals."
+  },
+  {
+    "prompt": "What is electricity?",
+    "response": "Electricity is energy that comes from tiny invisible particles called electrons moving through a material. When billions of them flow through a wire, they create the electricity that powers your lights, your phone, and pretty much everything that has a plug or a battery. It can be generated by flowing water, spinning wind turbines, or burning fuel. Always be careful around electricity because it is very powerful."
+  },
+  {
+    "prompt": "What is evaporation?",
+    "response": "Evaporation is when a liquid slowly turns into gas because of heat. When you leave a wet cloth in the sun, the water disappears into the air as water vapor. That is evaporation! The sun heats the water molecules until they have enough energy to escape into the air. This is why puddles on the road disappear after it rains and the sun comes out."
+  },
+  {
+    "prompt": "What is the difference between living and non-living things?",
+    "response": "Living things are anything that is alive or was once alive. They grow, breathe, reproduce, move, and need food and water to survive. Animals, plants, fungi, and bacteria are all living things. Non-living things have never been alive and do not do any of these things. Rocks, water, air, plastic, and glass are all non-living things. Soil is interesting because it contains both living organisms and non-living minerals!"
+  },
+  {
+    "prompt": "What is the human digestive system?",
+    "response": "When you eat food, your body needs to break it down and take out all the goodness it needs to grow and stay healthy. It starts in your mouth where your teeth chew the food and saliva starts to break it down. Then it travels down to your stomach where it gets broken down even more into a liquid. After that the small intestine absorbs all the nutrients into your blood, and whatever your body does not need gets removed."
+  },
+  {
+    "prompt": "What are insects?",
+    "response": "Insects are tiny animals that all share three things in common. They all have six legs, a body divided into three parts called the head, thorax, and abdomen, and most of them have wings. Butterflies, ants, bees, flies, beetles, and mosquitoes are all insects. There are more species of insects on Earth than any other type of animal, and many of them are incredibly important for things like pollinating flowers and breaking down dead material."
+  },
+  {
+    "prompt": "What is a habitat?",
+    "response": "A habitat is the natural home of an animal or plant, the place where it lives and finds everything it needs to survive. A fish needs a water habitat. A lion needs open grassland. A monkey needs a forest with trees. In Zimbabwe we have many beautiful habitats including rivers, forests, grasslands, and wetlands. When we destroy habitats by cutting down trees or polluting rivers, the animals and plants that live there lose their homes."
+  },
+  {
+    "prompt": "What is the human skeleton?",
+    "response": "Your skeleton is the framework of bones inside your body that gives you your shape and lets you move. Without it you would just be a blob! Adults have 206 bones in their bodies. Your skull protects your brain, your ribcage protects your heart and lungs, and your spine holds your whole body upright. Bones are living things too and they grow stronger when you exercise and eat foods rich in calcium like milk and leafy vegetables."
+  },
+  {
+    "prompt": "What is pollution?",
+    "response": "Pollution is when harmful substances get into the environment and cause damage to living things and the natural world. Air pollution happens when smoke and chemicals get into the air we breathe. Water pollution happens when rubbish or chemicals get into our rivers and lakes. Land pollution happens when people dump rubbish in places it should not be. In Zimbabwe, keeping the Zambezi River and our national parks clean is very important for both nature and for people."
+  },
+  {
+    "prompt": "What is adaptation?",
+    "response": "Adaptation is when a plant or animal has special features that help it survive in its particular environment. A camel has a hump that stores fat for energy and can go a long time without water, which is a great adaptation for the desert. A fish has gills to breathe underwater. Acacia trees in the African savanna have thorns to stop animals from eating all their leaves. Every living thing has adaptations that help it thrive where it lives."
+  },
+  {
+    "prompt": "What is the importance of water?",
+    "response": "Water is one of the most important things on Earth. Every living thing needs water to survive. Our bodies are about 60 percent water and we need to drink water every day to stay healthy. Water is used for farming to grow the food we eat, for cooking, for cleaning, and for generating electricity at places like Kariba Dam in Zimbabwe. Without water, there would be no life on our planet."
+  },
+  {
+    "prompt": "What is the difference between a plant and an animal?",
+    "response": "Plants and animals are both living things but they are very different from each other. Plants make their own food using sunlight, water, and air through photosynthesis, so they do not need to eat other things. Animals cannot make their own food so they have to eat plants or other animals to get energy. Plants are usually rooted in one place while most animals can move around freely to find food and shelter."
+  },
+  {
+    "prompt": "What causes day and night?",
+    "response": "Day and night happen because the Earth is spinning around like a top. As the Earth spins, the side facing the sun experiences day with bright light and warmth. The side facing away from the sun is in darkness and that is night. One full spin takes 24 hours, which is why our day is 24 hours long. So when it is daytime in Zimbabwe, it is nighttime on the other side of the world!"
+  },
+  {
+    "prompt": "What is conservation?",
+    "response": "Conservation means protecting and taking care of our natural environment so that it stays healthy for future generations. In Zimbabwe we are lucky to have incredible wildlife and natural spaces like Hwange National Park, Victoria Falls, and the Matobo Hills. Conservation means not killing animals illegally, not cutting down too many trees, not polluting rivers, and supporting efforts to protect endangered species like rhinos and elephants. Every person can play a role in conservation."
+  },
+  {
+    "prompt": "What are the senses?",
+    "response": "We have five senses that help us understand and experience the world around us. Sight lets us see with our eyes. Hearing lets us pick up sounds with our ears. Touch lets us feel things with our skin. Taste lets us experience flavours with our tongue. Smell lets us detect scents with our nose. These five senses work together to give us a full picture of everything happening around us every single moment."
+  },
+  {
+    "prompt": "What is a seed?",
+    "response": "A seed is like a tiny package that contains a baby plant and all the food it needs to start growing. When a seed gets the right amount of water, warmth, and sometimes light, it begins to sprout and grow into a new plant. The outer coat of the seed protects the baby plant inside. Seeds come in all shapes and sizes, from tiny grass seeds to the large seed of an avocado. Farmers in Zimbabwe plant seeds every season to grow the food we eat."
+  },
+  {
+    "prompt": "What is the heart?",
+    "response": "Your heart is an incredible muscle about the size of your fist that pumps blood around your whole body all day and all night without stopping. It beats roughly 70 times a minute, which means it beats over 100 thousand times every single day! The blood it pumps carries oxygen and nutrients to every part of your body and takes away waste products. You can feel your heart beating if you put your hand on your chest after running."
+  },
+  {
+    "prompt": "What causes rainfall?",
+    "response": "Rainfall happens when water vapor in the air cools down and turns back into water droplets that are heavy enough to fall. The sun heats up water from rivers, lakes, and the ocean, turning it into vapor that rises into the sky. High up where the air is cooler, the vapor forms clouds. When enough water droplets gather together in the clouds, they become too heavy and fall as rain. Zimbabwe relies heavily on rainfall between November and March to grow crops."
+  },
+  {
+    "prompt": "What is soil?",
+    "response": "Soil is the thin layer of material covering the surface of the Earth that plants grow in. It is made up of tiny broken pieces of rock, dead plant and animal material, water, air, and billions of tiny living organisms. Good soil is incredibly important for farming and growing food. In Zimbabwe, looking after the soil by not overusing it and planting trees to prevent erosion is very important for the future of farming and food production."
+  },
+  {
+    "prompt": "What is a noun?",
+    "response": "A noun is simply the name of something. It could be a person like a teacher or a friend, a place like Harare or the Zambezi River, an animal like a lion or an elephant, or a thing like a book or a football. Pretty much everything you can point at or think of has a noun for a name. Next time you are outside, try pointing at things and naming them. Every single name you say is a noun!"
+  },
+  {
+    "prompt": "What is a verb?",
+    "response": "A verb is the action in a sentence, it is the word that tells you what is happening. Running, eating, laughing, thinking, sleeping, these are all verbs. Without a verb a sentence has no life to it. You cannot even have a proper sentence without one! In the sentence the girl runs to school, the word runs is the verb and it is what makes the whole thing make sense."
+  },
+  {
+    "prompt": "What is an adjective?",
+    "response": "Adjectives are the words that bring a sentence to life by describing things. Instead of just saying tree you could say the tall green tree. Instead of just saying day you could say the hot dusty day. Those extra words, tall, green, hot, dusty, are all adjectives. They tell us what something looks like, feels like, smells like, or sounds like. Good writers use adjectives to paint pictures in the reader's mind."
+  },
+  {
+    "prompt": "What is a sentence?",
+    "response": "A sentence is a group of words that together make a complete thought. It always starts with a capital letter and ends with either a full stop, a question mark, or an exclamation mark. Most importantly it needs to have someone or something doing something, a subject and a verb. The dog runs fast is a sentence. The dog is not, because nothing is happening yet."
+  },
+  {
+    "prompt": "What is a synonym?",
+    "response": "A synonym is a word that means the same thing as another word. Happy and joyful mean the same thing so they are synonyms. Big and large are synonyms. Fast and quick are synonyms. Why does this matter? Because using synonyms makes your writing much more interesting. If you use the word good ten times in one paragraph it gets boring fast. But if you mix in great, wonderful, excellent, and fantastic, suddenly your writing comes alive!"
+  },
+  {
+    "prompt": "What is a pronoun?",
+    "response": "A pronoun is a word we use instead of repeating a noun over and over again. Instead of saying Chidi went to school and Chidi forgot Chidi's bag, we say Chidi went to school and he forgot his bag. The words he and his are pronouns that replace the name Chidi. Common pronouns are I, you, he, she, it, we, and they. Pronouns make our sentences much smoother and easier to read."
+  },
+  {
+    "prompt": "What is an adverb?",
+    "response": "An adverb is a word that describes a verb, telling us how, when, or where something happens. In the sentence she ran quickly, the word quickly is an adverb because it tells us how she ran. In the sentence he arrived yesterday, yesterday is an adverb telling us when he arrived. Many adverbs end in the letters ly, like slowly, carefully, and loudly, but not all of them do."
+  },
+  {
+    "prompt": "What is punctuation?",
+    "response": "Punctuation is the set of marks or signs we use in writing to make our meaning clear and easy to understand. The full stop ends a sentence. The comma separates ideas within a sentence or items in a list. The question mark shows that a question is being asked. The exclamation mark shows strong feeling or surprise. Without punctuation it would be very difficult to know where one idea ends and another begins."
+  },
+  {
+    "prompt": "What is comprehension?",
+    "response": "Comprehension means understanding what you have read. It is not just about reading the words on the page but actually grasping what they mean. When you read a passage and can answer questions about it, explain what happened, or say what the writer was trying to tell you, that is comprehension. Good comprehension skills help you in every subject at school, not just English, because almost everything involves reading and understanding information."
+  },
+  {
+    "prompt": "What is creative writing?",
+    "response": "Creative writing is when you use your imagination to create your own stories, poems, or descriptions. Unlike factual writing where you report what really happened, in creative writing you can invent characters, places, and events. You can write about a brave girl who discovers a hidden waterfall in the Chimanimani mountains, or a boy who befriends a baby elephant in Hwange. Creative writing lets your imagination run completely free!"
+  },
+  {
+    "prompt": "What is a paragraph?",
+    "response": "A paragraph is a group of sentences that are all about the same idea or topic. When you move on to a new idea, you start a new paragraph. A good paragraph usually has a topic sentence at the beginning that tells you what the paragraph is about, then several sentences that explain or give examples, and sometimes a concluding sentence that wraps it up. Using paragraphs makes your writing much easier to follow and understand."
+  },
+  {
+    "prompt": "What is a vowel?",
+    "response": "Vowels are the letters a, e, i, o, and u. Every word in English contains at least one vowel. They are special because your mouth stays open when you say them and no part of your mouth completely blocks the air coming out. All the other letters in the alphabet are called consonants. Vowels are the heart of every word and without them words would be impossible to pronounce!"
+  },
+  {
+    "prompt": "What is a prefix?",
+    "response": "A prefix is a group of letters added to the beginning of a word to change its meaning. For example, adding un to the word happy gives you unhappy, which means not happy. Adding re to the word write gives you rewrite, which means to write again. Adding dis to the word agree gives you disagree, which means to not agree. Learning common prefixes is a great way to understand and remember new words."
+  },
+  {
+    "prompt": "What is a suffix?",
+    "response": "A suffix is a group of letters added to the end of a word to change its meaning or how it is used in a sentence. Adding ing to the word run gives you running. Adding ful to the word care gives you careful. Adding less to the word hope gives you hopeless. Suffixes can change a noun into an adjective, a verb into a noun, and all sorts of other transformations that help us express exactly what we mean."
+  },
+  {
+    "prompt": "What is direct speech?",
+    "response": "Direct speech is when you write down the exact words that someone said, placed inside quotation marks. For example, Tendai said, I am going to the river. The words inside the quotation marks are exactly what Tendai said. Direct speech makes writing feel lively and real because we hear the characters speaking in their own voices. It is used a lot in stories and is an important skill for creative writing."
+  },
+  {
+    "prompt": "What is an antonym?",
+    "response": "An antonym is a word that means the opposite of another word. Hot and cold are antonyms. Happy and sad are antonyms. Big and small are antonyms. Day and night are antonyms. Knowing antonyms helps you express contrast and comparison in your writing. If you want to describe how different two things are from each other, antonyms are your best friends."
+  },
+  {
+    "prompt": "What is a simile?",
+    "response": "A simile is a way of describing something by comparing it to something else using the words like or as. For example you might say the river flowed as fast as a running cheetah, or her smile was like the sunshine after a rainy season. Similes help writers create vivid pictures in the reader's mind by connecting something unfamiliar to something the reader already knows and can imagine."
+  },
+  {
+    "prompt": "What is a conjunction?",
+    "response": "A conjunction is a joining word that connects two words, phrases, or sentences together. The most common conjunctions are and, but, or, so, and because. Instead of saying I was hungry. I ate sadza. you can join them with because and say I ate sadza because I was hungry. Conjunctions make your writing flow smoothly instead of sounding like a series of short disconnected statements."
+  },
+  {
+    "prompt": "What is a dictionary?",
+    "response": "A dictionary is a book or digital resource that contains words listed in alphabetical order, along with their meanings, how to spell them, and sometimes how to pronounce them. When you come across a word you do not understand, a dictionary is the perfect tool to help you. Learning to use a dictionary is one of the most useful skills you can develop because it makes you able to find out the meaning of any word you encounter."
+  },
+  {
+    "prompt": "What is a story structure?",
+    "response": "Every good story has a structure that makes it satisfying to read. It usually begins with an introduction where we meet the characters and learn the setting. Then comes the problem or conflict that creates tension and excitement. After that the characters work to solve the problem, which is called the rising action. Then comes the climax which is the most exciting moment. Finally there is the resolution where everything is sorted out and the story ends."
+  },
+  {
+    "prompt": "What is Great Zimbabwe?",
+    "response": "Great Zimbabwe is one of the most incredible places in all of Africa and it is right here in our country. It is a massive ancient city built from stone without any mortar or cement to hold the rocks together, yet it has stood for hundreds of years. It was the capital of a powerful kingdom that traded gold and other goods with countries as far away as China and Arabia. The name Zimbabwe actually comes from the Shona words dzimba dza mabwe, which means houses of stone."
+  },
+  {
+    "prompt": "Who was Mbuya Nehanda?",
+    "response": "Mbuya Nehanda was one of the greatest heroes in Zimbabwean history. She was a spiritual leader and fighter who led her people against the British colonial forces during the First Chimurenga in the 1890s. Even when she was captured, she refused to give up her spirit and famously said that her bones would rise again, meaning that the fight for freedom would continue. She was executed in 1898 but her courage inspired generations of Zimbabweans who came after her."
+  },
+  {
+    "prompt": "What was colonialism in Zimbabwe?",
+    "response": "Colonialism in Zimbabwe began when the British South Africa Company led by Cecil John Rhodes sent a group of settlers into the country in 1890. They took over the land and resources that belonged to the Shona and Ndebele people and forced them to work under unfair conditions. The people of Zimbabwe fought back in uprisings called the First and Second Chimurenga. After a long liberation struggle, Zimbabwe finally won its independence on the 18th of April 1980."
+  },
+  {
+    "prompt": "When did Zimbabwe gain independence?",
+    "response": "Zimbabwe gained its independence on the 18th of April 1980, which is why we celebrate Independence Day on that date every year. Before independence the country was called Rhodesia, named after the British colonist Cecil John Rhodes. The liberation struggle known as the Second Chimurenga involved thousands of freedom fighters who fought so that Zimbabweans could be free and govern themselves. Independence Day is one of the most important and joyful celebrations in our national calendar."
+  },
+  {
+    "prompt": "Who was Cecil John Rhodes?",
+    "response": "Cecil John Rhodes was a British businessman and politician who played a major role in the colonisation of Zimbabwe. He established the British South Africa Company which sent settlers into Zimbabwe in 1890 and took control of the land. He believed that British people had the right to rule over African people, which was a very unfair and harmful belief. The country was named Rhodesia after him during the colonial period. He is a controversial figure whose actions caused great suffering to the people of Zimbabwe."
+  },
+  {
+    "prompt": "What is the First Chimurenga?",
+    "response": "The First Chimurenga was the first major uprising by Zimbabwean people against British colonial rule. It took place between 1896 and 1897. Both the Shona and the Ndebele people rose up to fight against the settlers who had taken their land and cattle and forced them to pay taxes. Great leaders like Mbuya Nehanda, Sekuru Kaguvi, and King Lobengula played important roles in the resistance. Although the uprising was eventually put down, it planted the seeds of the independence movement that would grow over the following decades."
+  },
+  {
+    "prompt": "What is the Second Chimurenga?",
+    "response": "The Second Chimurenga was the liberation war that Zimbabwean freedom fighters fought to end white minority rule and win independence. It took place mainly from the 1960s through to 1979. Freedom fighters called Vakomana or Comrades went to the countryside and fought the Rhodesian government forces. The war ended with the Lancaster House Agreement in 1979 and Zimbabwe became independent in 1980. Many brave men and women sacrificed their lives during this struggle so that future generations could live in freedom."
+  },
+  {
+    "prompt": "Who is Robert Mugabe?",
+    "response": "Robert Mugabe was the first Prime Minister and later President of Zimbabwe after independence in 1980. He led the Zimbabwe African National Union, known as ZANU, during the liberation struggle and became one of the most prominent leaders in African history. He ruled Zimbabwe for 37 years until 2017. His legacy is complex, with many achievements in education and health in the early years of independence, but also serious challenges and controversies during his later years in power."
+  },
+  {
+    "prompt": "What are national heroes in Zimbabwe?",
+    "response": "National heroes are men and women who made extraordinary contributions to Zimbabwe's freedom, development, and welfare. They are people who showed great courage, sacrifice, and dedication to their country and its people. Zimbabwe has many national heroes including Mbuya Nehanda, Joshua Nkomo, and Herbert Chitepo among many others. National Heroes Day is celebrated every August to remember and honour these great Zimbabweans who gave so much for their country."
+  },
+  {
+    "prompt": "What is the Zimbabwe flag?",
+    "response": "The Zimbabwe flag is a beautiful and meaningful symbol of our nation. It has seven horizontal stripes of green, yellow, red, black, red, yellow, and green. On the left side there is a white triangle containing a red five-pointed star with a Zimbabwe Bird in the middle. The green represents the land and agriculture. The yellow represents the mineral wealth. The red represents the blood shed during the liberation struggle. The black represents the people of Zimbabwe. The Zimbabwe Bird is one of our most important national symbols."
+  },
+  {
+    "prompt": "What is the Zimbabwe Bird?",
+    "response": "The Zimbabwe Bird is one of our most important national symbols and it appears on our flag, our coat of arms, and our currency. It is a stylised carving of a bird of prey, believed to be a Bateleur eagle or an African Fish Eagle. The original carvings were found at the ancient ruins of Great Zimbabwe and are thought to be between 600 and 800 years old. The Zimbabwe Bird represents the history, culture, and spirit of the Zimbabwean people and links us to our ancient past."
+  },
+  {
+    "prompt": "What is Joshua Nkomo famous for?",
+    "response": "Joshua Nkomo is known as the Father of Zimbabwe and he was one of the most important leaders of the independence movement. He led the Zimbabwe African People's Union, known as ZAPU, and dedicated his life to fighting for the freedom of Zimbabwean people. He spent years in detention and exile for his beliefs but never gave up. After independence he served in government and was deeply respected by people across Zimbabwe. He is remembered as a man of great courage, wisdom, and dedication to his people."
+  },
+  {
+    "prompt": "What is the importance of Heroes Day in Zimbabwe?",
+    "response": "Heroes Day is celebrated on the second Monday of August every year and it is one of our most important national holidays. On this day we remember and honour the men and women who sacrificed their lives and comfort so that Zimbabwe could be free. We visit the National Heroes Acre in Harare where many of our heroes are buried. Heroes Day reminds us that our freedom was not free. It cost a great deal, and we honour those who paid that price by being good citizens and working to build a better Zimbabwe."
+  },
+  {
+    "prompt": "What are the provinces of Zimbabwe?",
+    "response": "Zimbabwe is divided into ten provinces, each with its own provincial capital. The provinces are Harare, Bulawayo, Manicaland, Mashonaland Central, Mashonaland East, Mashonaland West, Masvingo, Matabeleland North, Matabeleland South, and Midlands. Harare is both a province and the capital city of Zimbabwe. Each province has its own unique geography, culture, and economic activities. Knowing our provinces helps us understand the diversity and richness of our country."
+  },
+  {
+    "prompt": "What is Victoria Falls?",
+    "response": "Victoria Falls is one of the most spectacular natural wonders in the world and it sits right on the border between Zimbabwe and Zambia. The local Tonga people call it Mosi-oa-Tunya, which means the smoke that thunders, a perfect description of the enormous cloud of mist and the deafening roar you experience when you stand near it. The Zambezi River plunges over 100 metres into the gorge below, making it one of the largest waterfalls on Earth. It is a UNESCO World Heritage Site and one of Zimbabwe's most important tourist attractions."
+  },
+  {
+    "prompt": "What is Harare?",
+    "response": "Harare is the capital and largest city of Zimbabwe. It sits on a high plateau in the northeastern part of the country and has a pleasant climate because of its altitude. Harare is the centre of government, business, education, and culture in Zimbabwe. It is home to State House where the President lives, the Parliament of Zimbabwe, the National Gallery, and many universities and hospitals. Harare was previously called Salisbury during the colonial period and was renamed Harare after independence in 1982."
+  },
+  {
+    "prompt": "What is the Zambezi River?",
+    "response": "The Zambezi is one of the greatest rivers in Africa and it forms Zimbabwe's northern and western border with Zambia and Botswana. It is the fourth longest river in Africa and flows all the way to the Indian Ocean. The Zambezi is home to an incredible variety of wildlife including hippos, crocodiles, elephants, and hundreds of species of birds. It is also the site of Victoria Falls and the Kariba Dam, which generates electricity for Zimbabwe and Zambia. The Zambezi is truly the lifeblood of the region."
+  },
+  {
+    "prompt": "What is Kariba Dam?",
+    "response": "Kariba Dam is one of the largest man-made dams in the world and it sits on the Zambezi River on the border between Zimbabwe and Zambia. It was built in the 1950s and 1960s and created Lake Kariba, which is one of the largest man-made lakes in the world. The dam generates hydroelectric power that supplies electricity to both Zimbabwe and Zambia. Lake Kariba is also famous for its fishing, particularly the tasty Kapenta fish, and for wildlife including elephants, buffalo, and lions on its shores."
+  },
+  {
+    "prompt": "What animals live in Zimbabwe?",
+    "response": "Zimbabwe is incredibly rich in wildlife and is home to some of the most iconic animals in Africa. The Big Five, which are lions, elephants, leopards, buffalo, and rhinos, can all be found in Zimbabwe. Hwange National Park in the west is home to one of the largest elephant populations in the world. Zimbabwe also has cheetahs, wild dogs, zebras, giraffes, hippos, crocodiles, and hundreds of species of birds. Protecting this incredible wildlife heritage is one of the most important responsibilities we have as Zimbabweans."
+  },
+  {
+    "prompt": "What is the government of Zimbabwe?",
+    "response": "Zimbabwe is a republic, which means the country is governed by elected representatives of the people. The head of state and government is the President who is elected by the people every five years. Zimbabwe has a Parliament which is made up of elected members who make the laws of the country. The country is divided into provinces and districts each with their own local government structures. Every Zimbabwean citizen above the age of 18 has the right to vote and participate in choosing who leads the country."
+  },
+  {
+    "prompt": "What are the continents?",
+    "response": "The Earth's land is divided into seven huge areas called continents. They are Africa, Asia, Europe, North America, South America, Australia, and Antarctica. Africa is the second largest and is home to 54 countries and more than a billion people. Zimbabwe is located in southern Africa. Each continent has its own unique mix of people, languages, animals, plants, and climates. You are living on one of the most diverse and beautiful continents on Earth!"
+  },
+  {
+    "prompt": "What is climate?",
+    "response": "Climate is the usual pattern of weather that a place experiences over a long period of time, usually 30 years or more. Zimbabwe has a subtropical climate, which means we have hot wet summers from November to March and cool dry winters from May to August. The rainy season is very important for farmers who depend on rainfall to grow their crops. Different parts of Zimbabwe have slightly different climates, with the eastern highlands being cooler and wetter than the hot dry western lowlands."
+  },
+  {
+    "prompt": "What are natural resources?",
+    "response": "Natural resources are useful materials that come straight from nature that people use to survive and build their lives. Zimbabwe is incredibly rich in natural resources. We have fertile farming land, gold, diamonds, platinum, chrome, coal, and one of the greatest tourist attractions in the world in Victoria Falls. Water from the Zambezi and other rivers is also a vital natural resource. It is important to use these resources wisely and fairly so that they benefit all Zimbabweans now and in the future."
+  },
+  {
+    "prompt": "What is a map?",
+    "response": "A map is a drawing that shows what an area looks like from above, like a bird looking down from the sky. Maps help us find our way from one place to another and understand where things are located. They use symbols, colours, and a key to represent things like roads, rivers, mountains, and towns. A map of Zimbabwe would show our capital Harare, the Zambezi River in the north, Victoria Falls in the northwest, and the Eastern Highlands along our border with Mozambique."
+  },
+  {
+    "prompt": "What is deforestation?",
+    "response": "Deforestation is when large areas of forest are cut down or burned, usually to make space for farming, building, or to sell the wood for fuel. In Zimbabwe, many trees are cut down for firewood and to clear land for farming, which can cause serious problems. When forests are destroyed, animals lose their homes, the soil gets damaged and washes away when it rains, and there can be less rainfall because trees help bring rain. Planting trees and using other sources of energy can help slow down deforestation."
+  },
+  {
+    "prompt": "What is population?",
+    "response": "Population means the total number of people living in a particular place. Zimbabwe has a population of around 16 million people. Our population is young, meaning many Zimbabweans are children and young adults. Most people in Zimbabwe live in rural areas and depend on farming to survive. Harare and Bulawayo are our biggest cities. Understanding population helps the government plan how many schools, hospitals, and roads are needed to serve all the people of Zimbabwe."
+  },
+  {
+    "prompt": "What is citizenship?",
+    "response": "Citizenship means being a member of a country and having both rights and responsibilities that come with that membership. As a citizen of Zimbabwe you have the right to go to school, to be treated fairly by the law, to vote when you are old enough, and to live in safety. But citizenship also comes with responsibilities like obeying the laws, paying taxes, respecting other people, caring for the environment, and participating in your community. Good citizens help make Zimbabwe a better place for everyone."
+  },
+  {
+    "prompt": "What is the equator?",
+    "response": "The equator is an imaginary line that runs around the middle of the Earth, dividing it into the northern half called the Northern Hemisphere and the southern half called the Southern Hemisphere. Zimbabwe is located in the Southern Hemisphere, south of the equator. Countries right on the equator like Kenya and the Democratic Republic of Congo get very intense sunlight all year round. Because Zimbabwe is further from the equator, we experience more distinct seasons, including our beautiful cool dry winter."
+  },
+  {
+    "prompt": "What is migration?",
+    "response": "Migration is when people move from one place to another to live. People migrate for many different reasons. Some move from rural areas to cities like Harare looking for jobs and better opportunities. This is called rural to urban migration. Some people migrate to other countries. Migration happens because of push factors, things that make a place difficult to live in like poverty or drought, and pull factors, things that attract people to a new place like jobs or better schools."
+  },
+  {
+    "prompt": "What is a compass?",
+    "response": "A compass is a tool used for finding direction. It has a magnetic needle that always points towards the north. The four main directions are North, South, East, and West, which we can remember with the saying Never Eat Soggy Waffles. In Zimbabwe, South Africa is to our south, Zambia is to our north, Mozambique is to our east, and Botswana and Namibia are to our west. Knowing how to use a compass and read a map are very useful skills for exploring and understanding your world."
+  },
+  {
+    "prompt": "What is a community?",
+    "response": "A community is a group of people who live in the same area and share resources, responsibilities, and a sense of belonging together. Your school, your neighbourhood, and your village or suburb are all examples of communities. In Zimbabwe, communities are often held together by shared culture, language, and values. A strong community is one where people help each other, respect each other, and work together to solve problems and improve life for everyone."
+  },
+  {
+    "prompt": "What is the difference between urban and rural areas?",
+    "response": "Urban areas are towns and cities where lots of people live close together, like Harare, Bulawayo, Mutare, and Gweru. They usually have more services like hospitals, schools, shops, and tarred roads. Rural areas are the countryside where people live more spread out, often farming the land. In Zimbabwe most people live in rural areas and depend on farming. Both urban and rural areas are important and many Zimbabweans have connections to both, with family in the rural areas and work in the cities."
+  },
+  {
+    "prompt": "What are human rights?",
+    "response": "Human rights are the basic rights and freedoms that every person has simply because they are a human being, regardless of where they come from, what they look like, or what they believe. The right to go to school, the right to clean water, the right to safety, and the right to be treated with respect are all human rights. Zimbabwe's constitution protects the human rights of all its citizens. When people's rights are respected, they can live with dignity and reach their full potential."
+  },
+  {
+    "prompt": "What is farming in Zimbabwe?",
+    "response": "Farming is one of the most important activities in Zimbabwe and most families have some connection to farming. Zimbabwe's farmers grow crops like maize, which is used to make our staple food sadza, as well as tobacco, cotton, soya beans, and vegetables. Livestock farming of cattle, goats, and chickens is also widespread. Farming depends on good rainfall and fertile soil. Zimbabwe was once known as the breadbasket of Africa because it produced so much food, and rebuilding that capacity is an important goal for our country."
+  },
+  {
+    "prompt": "What is sadza?",
+    "response": "Sadza is the most important and beloved food in Zimbabwe. It is a thick porridge made from ground maize meal cooked in boiling water until it becomes firm enough to eat with your hands. Almost every Zimbabwean family eats sadza every day, usually with relish which can be vegetables, beans, chicken, beef, or fish. Sadza is more than just food, it is part of our culture and identity. Sharing a plate of sadza with family is one of the most meaningful parts of Zimbabwean life."
+  },
+  {
+    "prompt": "What are the main languages of Zimbabwe?",
+    "response": "Zimbabwe is a wonderfully diverse country with 16 officially recognised languages! The most widely spoken languages are Shona, which is spoken by the majority of people especially in the centre and east of the country, and Ndebele, which is spoken mainly in the west. English is used in government, business, and education. Other languages include Tonga, Kalanga, Venda, Shangani, Nambya, and many others. This linguistic diversity is one of the things that makes Zimbabwe such a rich and interesting country."
+  },
+  {
+    "prompt": "What is a drought?",
+    "response": "A drought is a long period of time when there is much less rain than usual, causing the land to become very dry. Droughts can be devastating for farmers who depend on rainfall to grow their crops, leading to food shortages and hardship. Zimbabwe has experienced several serious droughts, often linked to a weather pattern called El Nino. During droughts, water becomes scarce, animals struggle to find food and water, and crops fail. Preparing for droughts by storing water and choosing drought-resistant crops is very important."
+  },
+  {
+    "prompt": "What is the importance of education in Zimbabwe?",
+    "response": "Education is one of the most powerful tools for building a better life and a better Zimbabwe. After independence in 1980, Zimbabwe invested heavily in education and achieved one of the highest literacy rates in Africa, with most Zimbabweans being able to read and write. Education gives young people the knowledge and skills they need to find good jobs, contribute to their communities, and solve the problems facing our country. Every child who goes to school and learns is investing in the future of Zimbabwe."
+  },
+  {
+    "prompt": "What is the role of a chief in Zimbabwe?",
+    "response": "In Zimbabwean society, chiefs are traditional leaders who play an important role in governing their communities. A chief is responsible for maintaining order, resolving disputes between community members, allocating land, and preserving the cultural traditions and values of the community. Chiefs work alongside elected government officials and often serve as an important link between the government and rural communities. The chief system is a very ancient part of Zimbabwean society that continues to be valued and respected today."
+  },
+  {
+    "prompt": "What are some important cultural traditions in Zimbabwe?",
+    "response": "Zimbabwe has a rich and beautiful culture with many important traditions. The mbira, a musical instrument made from metal keys attached to a wooden board, is one of our most treasured cultural symbols and is used in spiritual ceremonies. Storytelling around the fire at night was traditionally how knowledge and wisdom were passed from generation to generation. Lobola, the practice of a groom's family giving gifts to a bride's family, remains an important marriage tradition. Cultural ceremonies like Kurova Guva help families honour their ancestors and maintain spiritual connections."
+  },
+  {
+    "prompt": "What is honesty?",
+    "response": "Honesty means telling the truth and being genuine in everything you say and do, even when it is difficult or when you might get in trouble. Honest people do not lie, cheat, or steal. When you are honest with your teacher, your parents, and your friends, you build trust and people know they can rely on you. In Zimbabwean culture, honesty is deeply valued and considered a mark of good character. Being honest might sometimes be hard but it always leads to better outcomes in the long run."
+  },
+  {
+    "prompt": "What is respect?",
+    "response": "Respect means treating other people, living things, and property with care and consideration. In Zimbabwean culture, respect for elders is especially important. We show respect to our parents, grandparents, teachers, and community leaders by greeting them properly, listening when they speak, and following their guidance. But respect goes beyond just elders. We should also respect our classmates, younger children, animals, and the environment. A respectful person makes everyone around them feel valued and dignified."
+  },
+  {
+    "prompt": "What is responsibility?",
+    "response": "Responsibility means understanding that your actions have consequences and being willing to take ownership of what you do. When you are responsible, you do what you are supposed to do without being reminded, whether that is doing your homework, helping with chores at home, or keeping your classroom clean. Responsible people also own up when they make mistakes instead of blaming others. Growing up means taking on more and more responsibility, and learning to be responsible as a child prepares you for a successful life as an adult."
+  },
+  {
+    "prompt": "What is kindness?",
+    "response": "Kindness is the quality of being friendly, generous, and considerate towards others. A simple act of kindness like sharing your lunch with a hungry classmate, helping someone who has fallen, or saying a kind word to someone who is sad can make an enormous difference in that person's day. In Zimbabwe our Ubuntu philosophy, which means I am because we are, teaches us that our wellbeing is connected to the wellbeing of those around us. Being kind is not a sign of weakness, it is a sign of strength and good character."
+  },
+  {
+    "prompt": "What is the Golden Rule?",
+    "response": "The Golden Rule is one of the most important moral principles found in almost every culture and religion in the world. It simply says treat others the way you would like to be treated yourself. Before you act, ask yourself how you would feel if someone did that to you. Would you like it if someone stole from you? No. So do not steal from others. Would you like it if someone helped you when you were struggling? Yes. So help others when they struggle. Following the Golden Rule makes communities peaceful and strong."
+  },
+  {
+    "prompt": "What does it mean to be a good friend?",
+    "response": "A good friend is someone you can trust, rely on, and enjoy spending time with. Good friends are honest with each other even when the truth is not easy to hear. They support each other during difficult times and celebrate each other's successes without jealousy. A good friend respects your boundaries, keeps your secrets, and treats you with kindness. Being a good friend also means being willing to apologise when you are wrong and forgive when your friend makes a mistake. Friendship is one of the greatest gifts in life."
+  },
+  {
+    "prompt": "What is Ubuntu?",
+    "response": "Ubuntu is a beautiful African philosophy that means I am because we are. It means that a person becomes fully human through their relationships and connections with other people. No one exists alone. We grow, we learn, and we thrive through our communities and the people around us. Ubuntu teaches us that when others suffer, we all suffer, and when others succeed, we all benefit. In Zimbabwe and across Africa, Ubuntu is reflected in practices like helping neighbours, sharing food, and supporting family members in need."
+  },
+  {
+    "prompt": "What is forgiveness?",
+    "response": "Forgiveness means choosing to let go of anger and resentment towards someone who has hurt or wronged you. It does not mean pretending that what they did was okay, but it means releasing the burden of holding onto that pain. Forgiveness is one of the most powerful and difficult things a person can do. Nelson Mandela, who was imprisoned for 27 years, chose to forgive those who had wronged him when he was released. His forgiveness helped heal a divided nation. Forgiveness frees both the person who was hurt and the person who caused the hurt."
+  },
+  {
+    "prompt": "What is the importance of family in Zimbabwean culture?",
+    "response": "Family is at the absolute heart of Zimbabwean culture and society. In Zimbabwe, family extends far beyond just parents and children. Grandparents, aunts, uncles, cousins, and even more distant relatives are all considered close family. Children in Zimbabwe are raised by a whole extended family network, not just their parents. Families provide love, support, guidance, identity, and belonging. The saying it takes a village to raise a child is very much alive in Zimbabwean culture, where communities take collective responsibility for children."
+  },
+  {
+    "prompt": "What does it mean to be a good citizen?",
+    "response": "Being a good citizen means contributing positively to your community and your country. A good citizen obeys the laws, respects other people's rights, pays taxes honestly, votes in elections, takes care of the environment, and helps neighbours in need. In Zimbabwe, being a good citizen also means being proud of our heritage and culture, preserving our natural resources for future generations, and working hard to build the nation. Every person, including children, can be a good citizen by being honest, kind, responsible, and respectful every day."
+  },
+  {
+    "prompt": "What is the mbira?",
+    "response": "The mbira is one of Zimbabwe's most treasured cultural treasures. It is a traditional musical instrument made of metal keys or tines attached to a wooden board, often placed inside a large gourd to amplify the sound. When the keys are plucked with the thumbs and index finger, they produce a beautiful shimmering sound unlike any other instrument. The mbira has been played in Zimbabwe for over a thousand years and is used in spiritual ceremonies called bira to communicate with ancestors. UNESCO has recognised the mbira as an important part of humanity's cultural heritage."
+  },
+  {
+    "prompt": "What is the bira ceremony?",
+    "response": "A bira is a traditional Shona ceremony held to communicate with the spirits of ancestors. The whole community gathers together, often overnight, and mbira music is played for many hours. The music is believed to invite the ancestral spirits to come and give guidance, healing, and protection to the living. The bira reflects the Shona belief that the bond between the living and the ancestors is never broken and that ancestors continue to play a role in the lives of their descendants. It is a deeply meaningful cultural practice."
+  },
+  {
+    "prompt": "What is Shona culture?",
+    "response": "Shona culture is the culture of the largest ethnic group in Zimbabwe, the Shona people who make up about 70 percent of the population. Shona culture is rich with traditions including music, dance, storytelling, craft making, and spiritual practices. The Shona people place great importance on family, community, and respect for elders and ancestors. Traditional Shona music using instruments like the mbira and marimba is world famous. The Shona language has several dialects including Karanga, Zezuru, Korekore, Manyika, and Ndau."
+  },
+  {
+    "prompt": "What is Ndebele culture?",
+    "response": "Ndebele culture is the culture of the Ndebele people who live mainly in the western parts of Zimbabwe, particularly around Bulawayo and the Matabeleland region. The Ndebele people are known for their strong warrior traditions, their distinctive colourful geometric art painted on the walls of homes, their beautiful beadwork and jewellery, and their rich oral tradition of storytelling and praise poetry. Ndebele culture places great importance on bravery, loyalty, and community. The Ndebele language, also called isiNdebele, is closely related to Zulu."
+  },
+  {
+    "prompt": "What are totems in Zimbabwe?",
+    "response": "Totems are an important part of Shona and Ndebele culture in Zimbabwe. Every family clan has a totem, which is usually an animal or a part of an animal, that represents their identity and ancestry. Common Shona totems include Shumba the lion, Nzou the elephant, Mhofu the eland, and Shiri the bird. Your totem tells you who you are and where you come from. People with the same totem are considered family and traditionally cannot marry each other. Totems are a beautiful way that Zimbabwean people maintain their connection to their history and identity."
+  },
+  {
+    "prompt": "What are Zimbabwean proverbs?",
+    "response": "Proverbs are short wise sayings that capture important truths about life. Every Zimbabwean language and culture is rich with proverbs that have been passed down through generations. A Shona proverb says chara chimwe hachitswanyi inda, meaning one finger cannot crush a louse, teaching us about the importance of working together. Another says kurerwa hakurevi kukudzwa, meaning being cared for does not mean being respected, teaching about earning respect through your own actions. Proverbs are one of the ways wisdom is passed from elders to young people in Zimbabwe."
+  },
+  {
+    "prompt": "What is traditional Zimbabwean food?",
+    "response": "Traditional Zimbabwean food is delicious and deeply connected to our agricultural heritage. Sadza made from maize meal is the staple food eaten at almost every meal. It is usually eaten with relish such as muriwo which are leafy vegetables, nyama which is meat, or nyevhe which are wild vegetables. Dried and smoked meats are traditional ways of preserving food. Maheu is a traditional fermented drink made from maize that is both refreshing and nutritious. Traditional foods reflect the seasons, the land, and the creativity of Zimbabwean people."
+  },
+  {
+    "prompt": "What is the importance of storytelling in Zimbabwe?",
+    "response": "Storytelling is one of the oldest and most important traditions in Zimbabwean culture. Before books and schools, stories told around the fire at night were how knowledge, values, history, and wisdom were passed from the older generation to the younger one. Traditional Zimbabwean stories often feature animals who represent human qualities, teaching lessons about honesty, hard work, and the consequences of greed or laziness. The storyteller, often an elder, would engage the whole family and community. This oral tradition is a living treasure that connects us to our ancestors."
+  },
+  {
+    "prompt": "What are traditional Zimbabwean crafts?",
+    "response": "Zimbabwean people are incredibly talented craftspeople with a long tradition of creating beautiful and functional objects. Stone sculpture is world famous, with Zimbabwean sculptors carving extraordinary works from soapstone and serpentinite that are sold in galleries around the world. Basket weaving, pottery, wood carving, and beadwork are other important traditional crafts. The Tonga people of the Zambezi Valley are known for their distinctive baskets. These crafts are not just art, they are a living connection to our cultural heritage and many craftspeople make their livelihood from them."
+  },
+  {
+    "prompt": "What is the significance of rain in Zimbabwean culture?",
+    "response": "Rain has always been one of the most important and celebrated things in Zimbabwean culture because our farming and survival depend on it. In traditional Shona belief, the spirit medium Murenga and rain spirits called Mhondoro are believed to control the rains. Special ceremonies called makombero are held to ask for rain during drought. The word for rain in Shona is mvura and there are many proverbs, songs, and celebrations connected to rain. When the first rains of the season fall after a long dry winter, there is genuine joy and celebration across rural Zimbabwe."
+  }
+]
