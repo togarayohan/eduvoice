@@ -1,55 +1,48 @@
 import requests
+import re
 
-OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "gemma4:e4b"
+OLLAMA_URL = "http://127.0.0.1:11434/api/chat"
+MODEL = "eduvoice"
 
-SYSTEM_PROMPT = """You are EduVoice, a friendly and patient AI tutor for children in rural Africa.
-You run completely offline on a small device.
-
-STRICT RULES:
-- Use PLAIN TEXT ONLY. No markdown, no asterisks, no bold, no bullet symbols, no emojis, no LaTeX, no dollar signs, no backslashes.
-- Write in simple spoken English as if talking out loud to a child.
-- Keep answers SHORT — 3 to 5 sentences maximum.
-- Be warm, encouraging, and easy to understand for ages 6-16.
-- Use simple words. Avoid jargon.
-- If listing steps, say "First... Then... Finally..." instead of using symbols.
-"""
-
-def ask(user_message: str, history: list = []) -> str:
-    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
-    messages += history
-    messages.append({"role": "user", "content": user_message})
-
+def ask(prompt, history=None):
+    # If history is passed, you can append it to messages, 
+    # but for a quick fix, just accept the argument:
+    messages = [{"role": "user", "content": prompt}]
+    
+    payload = {
+        "model": MODEL,
+        "messages": messages,
+        "stream": False
+    }
+    # ... rest of your code ...
     try:
-        response = requests.post(
-            OLLAMA_URL,
-            json={
-                "model": MODEL,
-                "messages": messages,
-                "stream": False,
-                "think": False,
-                "options": {
-                    "temperature": 0.7,
-                    "num_predict": 200,  # shorter = faster
-                }
-            },
-            timeout=120
-        )
+        response = requests.post(OLLAMA_URL, json=payload)
         response.raise_for_status()
-        data = response.json()
-        message = data.get("message", {})
-        content = message.get("content", "").strip()
-        return content
+        raw_content = response.json().get("message", {}).get("content", "")
 
-    except requests.exceptions.ConnectionError:
-        return "Sorry, I could not connect. Please make sure Ollama is running."
-    except requests.exceptions.Timeout:
-        return "I took too long to think. Please try again."
+        # 1. Look for the common "done thinking" or "Final Output" markers
+        # We use re.split with IGNORECASE to catch variations
+        markers = [r"done thinking\.", r"Final Output Generation\.", r"Final Output:"]
+        pattern = "|".join(markers)
+        
+        parts = re.split(pattern, raw_content, flags=re.IGNORECASE)
+        
+        # If a marker was found, the actual answer is the last part
+        if len(parts) > 1:
+            clean_content = parts[-1].strip()
+        else:
+            # 2. Fallback: If no markers, take the last double-newline block 
+            # (Thinking blocks are usually separated by whitespace)
+            blocks = [p for p in raw_content.split('\n\n') if p.strip()]
+            clean_content = blocks[-1].strip() if blocks else raw_content
+
+        return clean_content
+
     except Exception as e:
-        return f"Something went wrong: {str(e)}"
-
+        return f"Error connecting to Brain: {e}"
 
 if __name__ == "__main__":
-    print("Testing LLM...")
-    response = ask("What is the water cycle?")
-    print(f"EduVoice: {response}")
+    # Test the filter
+    test_q = "What is a star?"
+    print(f"Student: {test_q}")
+    print(f"EduVoice: {ask(test_q)}")

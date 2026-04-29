@@ -33,4 +33,3 @@ pyttsx3>=2.90
 
 # Utilities
 pathlib2>=2.3.7
-tqdm>=4.66.0

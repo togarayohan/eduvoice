@@ -2,7 +2,7 @@
 
 **Offline AI Voice Tutor for Blind and Underprivileged Children in Africa**
 
-Built for the [Gemma 4 Good Hackathon](https://kaggle.com/competitions/gemma-4-good-hackathon)
+Built for the [Gemma 4 Good Hackathon (2026)](https://kaggle.com/competitions/gemma-4-good-hackathon)
 
 ---
 
@@ -25,14 +25,6 @@ No internet. No screen. No barriers.
 
 ---
 
-## The "Unsloth" & "Ollama" Edge (Technical Flex)
-
-To make this possible on consumer-grade hardware, we didn't just use a base model:
-- **Fine-tuned with Unsloth:** We optimized **Gemma 4** using Unsloth for specialized educational reasoning. This reduced memory usage by 70% and made the model "smarter" for STEM tutoring.
-- **Ollama Integration:** The model is exported to GGUF and managed via Ollama for high-speed local inference.
-- **Headless Architecture:** We stripped every single GUI component. No buttons, no browser, no wasted RAM. Every CPU cycle is dedicated to the AI's "brain" and vocal synthesis.
-
----
 ## Tech Stack
 
 | Component | Technology | Why |
@@ -76,31 +68,16 @@ python main.py --text
 
 ## Project Structure
 
-```
+```text
 eduvoice/
-├── main.py          # Entry point and main loop
-├── llm.py           # Gemma 4 via Ollama
-├── stt.py           # Whisper speech-to-text
-├── tts.py           # Kokoro text-to-speech
-├── rag.py           # Local RAG over curriculum docs
-├── requirements.txt
-└── docs/            # Add your curriculum .txt/.md files here
-```
-
----
-
-## Hardware Targets
-
-- **Development**: MacBook M1 (16GB RAM)
-- **Deployment**: Raspberry Pi 4 (4GB RAM) — the EduVoice Kit
-
----
-
-## Roadmap
-
-- [ ] Shona language support
-- [ ] Ndebele language support  
-- [ ] Wake word detection ("Hey EduVoice")
-- [ ] Fine-tuned model on African curriculum (Unsloth)
-- [ ] Raspberry Pi deployment kit
-- [ ] Solar-powered enclosure design
+├── eduvoice_lora/      # Custom LoRA adapters (Fine-tuning weights)
+├── Model.gguf          # The merged, quantized brain (Ready for PC/Pi)
+├── Modelfile           # Ollama configuration for the tutor
+├── merge_script.py     # Script to merge LoRA + Base into GGUF
+├── main.py             # Headless main loop (Mic -> STT -> LLM -> TTS -> Speaker)
+├── llm.py              # Gemma 4 / Ollama interface logic
+├── stt.py              # Offline Whisper processing
+├── tts.py              # Kokoro text-to-speech engine
+├── rag.py              # Local RAG for curriculum grounding
+├── requirements.txt    # Optimized dependencies for headless PC/Pi
+└── docs/               # Folder for local curriculum .txt/.md files

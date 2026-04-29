@@ -5,88 +5,50 @@ import tempfile
 import scipy.io.wavfile as wav
 import os
 
-# Use "base" for speed on edge devices, "small" for better accuracy
-# On M1 MacBook "small" is still very fast
-WHISPER_MODEL = "small"
+# Add this to stt.py
+def transcribe_file(file_path):
+    model = load_model() # Uses your pre-loaded global model
+    result = model.transcribe(file_path, language="en", fp16=False)
+    return result["text"].strip()
 
-_model = None
+# Configuration
+WHISPER_MODEL_NAME = "small"
 
-def load_model():
-    """Load Whisper model once and cache it."""
-    global _model
-    if _model is None:
-        print(f"Loading Whisper {WHISPER_MODEL} model...")
-        _model = whisper.load_model(WHISPER_MODEL)
-        print("Whisper ready.")
-    return _model
+# Pre-load the model globally so it doesn't reload on every turn
+print(f"Loading Whisper {WHISPER_MODEL_NAME}...")
+_model = whisper.load_model(WHISPER_MODEL_NAME)
+print("Whisper ready.")
 
-
-def record_audio(duration: int = 5, sample_rate: int = 16000) -> np.ndarray:
-    """
-    Record audio from microphone.
-    
-    Args:
-        duration: How many seconds to record
-        sample_rate: Audio sample rate (Whisper expects 16kHz)
-    
-    Returns:
-        numpy array of audio samples
-    """
+def record_audio(duration=5, sample_rate=16000):
+    """Records audio from the microphone."""
     print(f"🎤 Listening for {duration} seconds...")
-    audio = sd.rec(
-        int(duration * sample_rate),
-        samplerate=sample_rate,
-        channels=1,
-        dtype="float32"
-    )
-    sd.wait()  # Wait until recording is done
-    print("✅ Recording complete.")
+    audio = sd.rec(int(duration * sample_rate), samplerate=sample_rate, channels=1, dtype="float32")
+    sd.wait()
     return audio.flatten()
 
+def transcribe_audio(audio, sample_rate=16000):
+    """Transcribes the audio array using the global model."""
+    if np.max(np.abs(audio)) < 0.01: # Silence threshold
+        return ""
 
-def transcribe_audio(audio: np.ndarray, sample_rate: int = 16000) -> str:
-    """
-    Transcribe numpy audio array to text using Whisper.
-    
-    Args:
-        audio: numpy array of audio samples
-        sample_rate: sample rate of the audio
-    
-    Returns:
-        Transcribed text string
-    """
-    model = load_model()
-
-    # Save to a temp wav file (Whisper needs a file path)
     with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
         tmp_path = f.name
         wav.write(tmp_path, sample_rate, (audio * 32767).astype(np.int16))
 
     try:
-        result = model.transcribe(tmp_path, language="en", fp16=False)
-        text = result["text"].strip()
-        return text
+        result = _model.transcribe(tmp_path, language="en", fp16=False)
+        return result["text"].strip()
     finally:
-        os.unlink(tmp_path)  # Clean up temp file
+        if os.path.exists(tmp_path):
+            os.unlink(tmp_path)
 
-
-def listen(duration: int = 5) -> str:
-    """
-    High-level function: record from mic and return transcribed text.
-    
-    Args:
-        duration: seconds to listen for
-    
-    Returns:
-        transcribed string
-    """
+def listen(duration=5):
+    """The function main.py is looking for."""
     audio = record_audio(duration=duration)
     text = transcribe_audio(audio)
     print(f"👂 Heard: {text}")
     return text
 
-
 if __name__ == "__main__":
-    print("Testing STT — speak something in the next 5 seconds...")
-    result = listen(duration=5)
-    print(f"Transcribed: '{result}'")
+    # Test solo
+    print(listen())
