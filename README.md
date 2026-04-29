@@ -1,6 +1,6 @@
 # EduVoice 🎓🔊
 
-Offline AI Voice Tutor for Blind and Underprivileged Children in Africa
+EduVoice Offline AI Voice Tutor for Inclusive Education in Africa
 
 EduVoice is a fully offline, voice-first AI tutor designed for regions with zero connectivity and for students with vision impairments. It transforms consumer-grade hardware (Raspberry Pi/MacBook) into an interactive "Teacher in a Box" using a specialized, fine-tuned Gemma 4 model.
 
