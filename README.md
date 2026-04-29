@@ -30,7 +30,7 @@ No internet. No screen. No barriers.
 To make this possible on consumer-grade hardware, we didn't just use a base model:
 - **Fine-tuned with Unsloth:** We optimized **Gemma 4** using Unsloth for specialized educational reasoning. This reduced memory usage by 70% and made the model "smarter" for STEM tutoring.
 - **Ollama Integration:** The model is exported to GGUF and managed via Ollama for high-speed local inference.
-- **Headless Architecture:** We removed all GUI components to save RAM, dedicating every CPU cycle to the AI's "brain" and vocal synthesis.
+- **Headless Architecture:** We stripped every single GUI component. No buttons, no browser, no wasted RAM. Every CPU cycle is dedicated to the AI's "brain" and vocal synthesis.
 
 ---
 ## Tech Stack
