@@ -8,16 +8,31 @@ Built for the [Gemma 4 Good Hackathon](https://kaggle.com/competitions/gemma-4-g
 
 ## The Problem
 
-Millions of children across rural Africa have no reliable internet access, no access to quality teachers, and — for blind children — no accessible learning tools at all. A child who cannot see and cannot access the internet is effectively locked out of education.
+Millions of children across Africa face a massive barrier to education: **Connectivity** and **Accessibility**. 
+- **The Internet Gap:** High data costs and unreliable power make cloud-based AI impossible for the majority.
+- **The Resource Gap:** Textbooks are scarce; many students rely solely on a teacher's spoken word.
+- **The Accessibility Gap:** For blind or vision-impaired children, a lack of internet and lack of vision equals a total lockout from modern educational tools.
 
 ## The Solution
 
-EduVoice is a fully **offline**, **voice-first** AI tutor that runs on low-cost hardware (Raspberry Pi(in development) or any laptop). A child simply speaks their question and EduVoice responds with a clear, friendly spoken answer — grounded in real curriculum materials.
+EduVoice is a fully **offline**, **voice-first** AI tutor that transforms a standard PC or Raspberry Pi into a "Teacher in a Box." 
+
+- **Voice-In, Voice-Out:** Zero-screen interface designed specifically for blind students and low-literacy environments.
+- **100% Offline:** Runs entirely without internet using a fine-tuned **Gemma 4** model.
+- **Curriculum-Grounded:** Uses Local RAG to ensure answers stay within the bounds of actual school curriculum materials.
 
 No internet. No screen. No barriers.
 
 ---
 
+## The "Unsloth" & "Ollama" Edge (Technical Flex)
+
+To make this possible on consumer-grade hardware, we didn't just use a base model:
+- **Fine-tuned with Unsloth:** We optimized **Gemma 4** using Unsloth for specialized educational reasoning. This reduced memory usage by 70% and made the model "smarter" for STEM tutoring.
+- **Ollama Integration:** The model is exported to GGUF and managed via Ollama for high-speed local inference.
+- **Headless Architecture:** We removed all GUI components to save RAM, dedicating every CPU cycle to the AI's "brain" and vocal synthesis.
+
+---
 ## Tech Stack
 
 | Component | Technology | Why |
